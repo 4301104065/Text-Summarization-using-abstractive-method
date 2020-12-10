@@ -57,7 +57,7 @@ Including file word,ppt,pdf illustrating this project. Besides, this folder also
 - e: embedding dimensionality, i set default args which is 100 (the best paremeter I personally tuned)
 - ep: epochs, i set default args which is 50 (the best paremeter I personally tuned)
 3. After the model has been trained. It will be save to directory TextSummarization/models.
-# How to predict a topic of raw corpus text files:
+# How to predict the summarized version of raw corpus text files:
 0. Make sure the working directory has been set to main directory (cd TextSummarization)
 1. Update the code line sys.path.append("E:\Slide subject\Text mining\TextSummarization\src"), alter this path of src folder into your path in your computer
 2. In CLI: python src/model/predict_model.py ( this file predicted 10 first samples in the validation set through encoder_model_inference.h5 and decoder_model_inference.h5 having saved previously. 
