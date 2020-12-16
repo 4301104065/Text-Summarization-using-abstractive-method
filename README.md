@@ -17,7 +17,7 @@ Summarized Text: please do not waste your money
 
 # How to get started:
 1. Clone this project: 
-git clone https://github.com/4301104065/Text-Summarization-using-abtractive-method
+git clone https://github.com/4301104065/Text-Summarization-using-abstractive-method.git
 or download this project as zip.
 2. Change the working directory to TextSummarization using cd
 3. Make sure python 3.7.5 is installed in your computer
